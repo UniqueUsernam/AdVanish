@@ -1,2 +1,2 @@
 # AdVanish
-AdVanish protects you from online trackers and advertisements, as well as large companies that violate your privacy.
+AdVanish protects you from online trackers and advertisements. The source code is contained within the AdVanish directory.
