@@ -1,0 +1,59 @@
+{
+  "update_url": "http://0.0.0.0",
+  "manifest_version": 3,
+  "name": "AdVanish",
+  "description": "AdVanish protects you from online trackers and advertisements, as well as large companies that violate your online privacy.",
+  "version": "3.0.0",
+  "author": "Nicholas",
+  "action": {
+    "default_title": "AdVanish",
+    "default_icon": "images/online_privacy.png",
+    "default_popup": "main.html"
+  },
+  "icons": {
+    "16": "images/online_privacy.png",
+    "32": "images/online_privacy.png",
+    "48": "images/online_privacy.png",
+    "128": "images/online_privacy.png"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "declarativeNetRequestWithHostAccess",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "Background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "heavy_blocking.json"
+      },
+      {
+        "id": "ruleset_2",
+        "enabled": true,
+        "path": "tracker_blocking.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "match_origin_as_fallback": true,
+      "match_about_blank": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["adblock.html", "blocked.html", "heavyBlocked.html", "heavyBlockedSmall.html", "faq.html", "yellowlisted.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+
+}
