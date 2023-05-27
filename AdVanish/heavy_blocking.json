@@ -1,0 +1,750 @@
+[
+	{
+	"id": 1,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.adcash.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 2,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://adcash.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 3,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.adcash.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+	{
+	"id": 4,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://adcash.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 5,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.getadmiral.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 6,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://getadmiral.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 7,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.getadmiral.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+	{
+	"id": 8,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://getadmiral.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+	{
+	"id": 25,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.propellerads.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 26,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://propellerads.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 27,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.propellerads.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 28,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://propellerads.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 29,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.inmobi.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 30,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://inmobi.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 31,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.inmobi.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 32,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://inmobi.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 33,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.admob.google.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 34,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://admob.google.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 35,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.admob.google.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 36,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://admob.google.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 37,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.startapp.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 38,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://startapp.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 39,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.startapp.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 40,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://startapp.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 41,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.start.io/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 42,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://start.io/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 43,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.start.io/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 44,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://start.io/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 45,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.monetize.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 46,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://monetize.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 47,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.monetize.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 48,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://monetize.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 49,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.fullcirclestudies.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 50,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://fullcirclestudies.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 51,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.fullcirclestudies.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 52,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://fullcirclestudies.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 53,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.scorecardresearch.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 54,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://scorecardresearch.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 55,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.scorecardresearch.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 56,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://scorecardresearch.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 57,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.blockthrough.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 58,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://blockthrough.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 59,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.blockthrough.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 60,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://blockthrough.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 61,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.pagefair.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 62,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://pagefair.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 63,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.pagefair.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 64,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://pagefair.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 65,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.uponit.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 66,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://uponit.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 67,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.uponit.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 68,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://uponit.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 69,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.antiadblock.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 70,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://antiadblock.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 71,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.antiadblock.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 72,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://antiadblock.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 73,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.blockadblock.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 74,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://blockadblock.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 75,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.blockadblock.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 76,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://blockadblock.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 77,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.scoreresearch.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 78,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://scoreresearch.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 79,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.scoreresearch.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 80,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://scoreresearch.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 81,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.scrsrch.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 82,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://scrsrch.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 83,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.scrsrch.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 84,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://scrsrch.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 85,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.securestudies.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 86,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://securestudies.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 87,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.securestudies.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 88,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://securestudies.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 89,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.aax.media/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 90,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://aax.media/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 91,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.aax.media/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 92,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://aax.media/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 93,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.aaxads.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 94,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://aaxads.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 95,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.aaxads.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 96,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://aaxads.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 97,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.almondnet.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 98,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://almondnet.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 99,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.almondnet.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 100,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://almondnet.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 121,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.direct.yandex.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 122,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://direct.yandex.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 123,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.direct.yandex.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 124,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://direct.yandex.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 125,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.an.yandex.ru/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 126,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://an.yandex.ru/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 127,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.an.yandex.ru/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 128,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://an.yandex.ru/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 129,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.bs.yandex.ru/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 130,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://bs.yandex.ru/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 131,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.bs.yandex.ru/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 132,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://bs.yandex.ru/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 139,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.comscore.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 140,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://comscore.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 141,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.comscore.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 142,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://comscore.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 145,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.zqtk.net/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 146,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://zqtk.net/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 147,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.zqtk.net/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 148,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://zqtk.net/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	},
+
+
+	{
+	"id": 149,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://*.reviveads.com/*", "resourceTypes": ["main_frame"]
+	}
+	},
+	{
+	"id": 150,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlocked.html" } },
+	"condition": {"urlFilter": "*://reviveads.com/*", "resourceTypes": ["main_frame"] }
+	},
+	{
+	"id": 151,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://*.reviveads.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"]
+	}
+	},
+	{
+	"id": 152,
+	"priority": 1,
+	"action": { "type": "redirect", "redirect": { "extensionPath": "/heavyBlockedSmall.html" } },
+	"condition": {"urlFilter": "*://reviveads.com/*", "resourceTypes": ["csp_report", "font", "image", "media", "object", "other", "ping", "script", "stylesheet", "sub_frame", "webbundle", "websocket", "webtransport", "xmlhttprequest"] }
+	}
+]
